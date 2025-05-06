@@ -26,6 +26,13 @@ I'm a passionate and solution-focused Magento backend and frontend expert based 
 
 ---
 
+### 🖥️ My Portfolio
+
+📌 Explore my personal website with project samples and UI design:  
+👉 [**Visit Portfolio**](https://purnav3095.github.io/Purnav-Ecommerce/)
+
+---
+
 ### 📚 Certifications
 
 - ✅ Adobe Certified Expert – Adobe Commerce Front-End Developer
