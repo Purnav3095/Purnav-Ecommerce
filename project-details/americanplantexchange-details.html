@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/premium.css" rel="stylesheet">
 
  <!-- =======================================================
   * Template Customized For: Purnav Galiya
@@ -38,13 +39,13 @@
   ======================================================= -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="portfolio-details-page premium-mode">
 
-  <header id="header" class="header dark-background d-flex flex-column">
+  <header id="header" class="header d-flex flex-column premium-header">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="../assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
+      <img src="../assets/img/my-profile-business.png" alt="Purnav Galiya" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -52,6 +53,8 @@
       <!-- <img src="../../assets/img/logo.png" alt=""> -->
       <h1 class="sitename">Purnav Galiya</h1>
     </a>
+
+    <p class="premium-header-tag">Senior Magento 2 &amp; Headless Commerce Developer</p>
 
     <div class="social-links text-center">
       <a href="https://www.linkedin.com/in/purnav7521/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -62,25 +65,25 @@
    <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="../index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="../index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="../index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="../index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="../index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li><a href="../index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="../index.html#about"><i class="bi bi-person navicon"></i> Positioning</a></li>
+        <li><a href="../index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Experience</a></li>
+        <li><a href="../index.html#portfolio"><i class="bi bi-grid navicon"></i> Case Studies</a></li>
+        <li><a href="../index.html#services"><i class="bi bi-stars navicon"></i> Capabilities</a></li>
+        <li><a href="../index.html#contact"><i class="bi bi-send navicon"></i> Contact</a></li>
       </ul>
     </nav>
 
   </header>
 
-  <main class="main">
+  <main class="main premium-main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background">
+    <div class="page-title premium-page-title">
       <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">American Plant Exchange</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="current">American Plant Exchange Details</li>
           </ol>
         </nav>
@@ -131,7 +134,7 @@
               <ul>
                 <li><strong>Category</strong>: Magento 2 Backend Development</li>
                 <li><strong>Client</strong>: American Plant Exchange</li>
-                <li><strong>Project Date</strong>: August 2023</li>
+                <li><strong>Project Date</strong>: March 2023</li>
                 <li><strong>Technologies Used</strong>: Magento 2 CE, PHP, MySQL, REST API, Cron Jobs</li>
                 <li><strong>Project Type</strong>: B2C Plant & Nursery eCommerce</li>
               </ul>
@@ -142,7 +145,11 @@
               <p>
                 American Plant Exchange is a Florida-based online plant store offering a variety of indoor and outdoor plants. I contributed to building and optimizing backend systems to support seasonal product influx, seamless shipping, and inventory automation.
               </p>
-              <h4>Key Contributions:</h4>
+              <h4>Role</h4>
+              <p>Magento backend engineer focused on fulfillment integration, catalog operations, and checkout logic for live-plant ecommerce.</p>
+              <h4>Problem</h4>
+              <p>Seasonal demand spikes and fragile product handling required stronger shipping logic, inventory control, and catalog data quality.</p>
+              <h4>Solution</h4>
               <ul>
                 <li>Integrated third-party plant shipping services with automated rate calculation and fulfillment triggers.</li>
                 <li>Developed backend modules for bulk inventory updates via CSV/XML feed from greenhouse partners.</li>
@@ -150,6 +157,14 @@
                 <li>Implemented custom cron jobs to sync stock availability with real-time updates.</li>
                 <li>Enhanced checkout logic to handle special handling fees for live plants and oversized items.</li>
               </ul>
+              <h4>Impact</h4>
+              <ul>
+                <li>Improved delivery reliability for sensitive products and seasonal campaigns.</li>
+                <li>Reduced stock inconsistencies through repeatable feed and cron processes.</li>
+                <li>Strengthened customer experience with clearer product and handling information.</li>
+              </ul>
+              <h4>Stack</h4>
+              <p>Magento 2 Commerce, PHP, MySQL, cron automation, shipping APIs, CSV/XML integrations.</p>
             </div>
         </div>
       </div>
@@ -160,7 +175,7 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
+  <footer id="footer" class="footer position-relative">
 
    <div class="container">
      <div class="copyright text-center">

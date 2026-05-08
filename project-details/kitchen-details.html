@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/premium.css" rel="stylesheet">
 
  <!-- =======================================================
   * Template Customized For: Purnav Galiya
@@ -38,13 +39,13 @@
   ======================================================= -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="portfolio-details-page premium-mode">
 
-  <header id="header" class="header dark-background d-flex flex-column">
+  <header id="header" class="header d-flex flex-column premium-header">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="../assets/img/my-profile-img.png" alt="" class="img-fluid rounded-circle">
+      <img src="../assets/img/my-profile-business.png" alt="Purnav Galiya" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -52,6 +53,8 @@
       <!-- <img src="../../assets/img/logo.png" alt=""> -->
       <h1 class="sitename">Purnav Galiya</h1>
     </a>
+
+    <p class="premium-header-tag">Senior Magento 2 &amp; Headless Commerce Developer</p>
 
     <div class="social-links text-center">
       <a href="https://www.linkedin.com/in/purnav7521/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -62,25 +65,25 @@
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="../index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="../index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="../index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="../index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="../index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li><a href="../index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="../index.html#about"><i class="bi bi-person navicon"></i> Positioning</a></li>
+        <li><a href="../index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Experience</a></li>
+        <li><a href="../index.html#portfolio"><i class="bi bi-grid navicon"></i> Case Studies</a></li>
+        <li><a href="../index.html#services"><i class="bi bi-stars navicon"></i> Capabilities</a></li>
+        <li><a href="../index.html#contact"><i class="bi bi-send navicon"></i> Contact</a></li>
       </ul>
     </nav>
 
   </header>
 
-  <main class="main">
+  <main class="main premium-main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background">
+    <div class="page-title premium-page-title">
       <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">KitchenRestock</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li class="current">KitchenRestock Details</li>
           </ol>
         </nav>
@@ -137,10 +140,11 @@
               <h3>Project Information</h3>
               <ul>
                 <li><strong>Category</strong>: Magento Development</li>
-                <li><strong>Client</strong>: Example Client (e.g., Halco Lighting)</li>
+                <li><strong>Client</strong>: KitchenRestock</li>
                 <li><strong>Project Date</strong>: January 2023</li>
+                <li><strong>Project Type</strong>: Kitchen Supplies eCommerce Platform</li>
                 <li><strong>Technologies Used</strong>: Magento 2, PHP, MySQL, jQuery, KnockoutJS</li>
-                <li><strong>Project URL</strong>: <a href="https://example.com" target="_blank">www.example.com</a></li>
+                <li><strong>Project URL</strong>: <a href="https://kitchenrestock.com" target="_blank">www.kitchenrestock.com</a></li>
               </ul>
             </div>
         </div>
@@ -149,7 +153,7 @@
               <p>
                 This project involved customizing the Magento 2 platform for a client in the e-commerce industry. The main focus was on backend development, including creating custom modules for advanced order management, product importing, and integrating with third-party APIs for shipping and payment processing. I also worked on improving the site’s performance and ensured seamless integration between Magento and external systems.
               </p>
-              <h4>Key Achievements:</h4>
+              <h4>Key Contributions:</h4>
               <ul>
                 <li>Developed a custom import functionality for bulk product data using Models and ResourceModels.</li>
                 <li>Integrated the Magento platform with external APIs for real-time shipping rates and payment gateways.</li>
@@ -164,7 +168,7 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
+  <footer id="footer" class="footer position-relative">
 
    <div class="container">
      <div class="copyright text-center">
